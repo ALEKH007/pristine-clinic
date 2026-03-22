@@ -36,7 +36,7 @@ Dental website/
 - **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
 - **Database**: [MongoDB](https://www.mongodb.com/) via [Mongoose](https://mongoosejs.com/)
 - **Authentication**: JWT (JSON Web Tokens) & BcryptJS (Admin Panel)
-- **Deployment**: Vercel (Recommended)
+- **Deployment**: Vercel 
 
 ---
 
