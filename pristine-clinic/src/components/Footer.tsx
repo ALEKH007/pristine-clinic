@@ -1,4 +1,4 @@
-import Link from "next/link"; 
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
                 <svg className="h-5 w-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13 10V3L4 14h7v7l9-11h-7z" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>
                 </svg>
-              </div> 
+              </div>
               <span className="text-xl font-bold text-white tracking-tight">Pristine <span className="text-medicalBlue">Care</span></span>
             </div>
             <p className="text-sm leading-relaxed">
@@ -45,7 +45,9 @@ export default function Footer() {
             <p className="text-sm">Subscribe for health tips:</p>
             <div className="mt-4 flex">
               <input className="bg-slate-800 px-3 border-none rounded-l-lg text-sm w-full focus:ring-1 focus:ring-medicalBlue text-white" placeholder="Email" type="email" />
-              <button className="bg-medicalBlue text-white px-4 rounded-r-lg hover:bg-blue-600 transition">Go</button>
+              <button>
+                <a href="#about" className="bg-medicalBlue text-white px-4 rounded-r-lg hover:bg-blue-600 transition">Go</a>
+              </button>
             </div>
           </div>
         </div>
