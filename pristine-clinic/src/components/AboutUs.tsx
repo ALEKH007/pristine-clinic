@@ -7,7 +7,7 @@ export default function AboutUs() {
             <img
               alt="Our Lead Doctor"
               className="rounded-custom shadow-xl w-full h-auto"
-              src="https://lh3.googleusercontent.com/p/AF1QipOn9mP2-jt9-ExTJLsP7rKYlt6YM8onTfiJKl-V=s680-w680-h510-rw"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToV5CUARjru-AEfqvJHBsEuDgMZL6xvw4hrkZUvSiGog&s=10"
             />
           </div>
           <div className="order-1 lg:order-2">
